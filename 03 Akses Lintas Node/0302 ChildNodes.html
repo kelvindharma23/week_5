@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript ChildNode</title>
+    </head>
+    <body>
+        <ul id="menu">
+            <li class="first">home</li>
+            <li>product</li>
+            <li class="current">Current Support</li>
+            <li>carrers</li>
+            <li>investor</li>
+            <li>news</li>
+            <li class="last">about Us</li>
+            <script>
+                 let content = document.getElementById('menu'); 
+                 let firstChild = content.firstChild.nodeName; 
+                 console.log(firstChild); 
+
+           
+                 let lastChild = parentElement.lastElementChild; 
+                 console.log(content.lastElementChild);
+
+                 let children = content.childNodes;
+                 console.log(children)
+            
+            </script>
+           
+        </ul>
+    </body>
+</html>
